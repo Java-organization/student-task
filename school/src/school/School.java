@@ -6,15 +6,15 @@ public class School {
 		
 		Student student=new Student();
 		
-		student.studentName = "Togrul";
-		student.className = "8a";
-		student.price = 9;
-		student.subject = "Fizika";
-		student.teacherName = "Tunzale";
+		student.setStudentName("Togrul");
+		student.setClassName("8a");;
+		student.setPrice(9); 
+		student.setSubject("Fizika");
+		student.setTeacherName("Tunzale");
 		
-	   student.classOfStudent(student.studentName, student. className);
-	student.priceOfStudent(student.price);
-    student.subjectOfStudent(student.subject,student.teacherName);
+	   student.classOfStudent(student.getStudentName(), student.getClassName());
+	student.priceOfStudent(student.getPrice());
+    student.subjectOfStudent(student.getSubject(),student.getTeacherName());
 	}
 
 }
